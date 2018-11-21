@@ -40,6 +40,7 @@ function myList(){
 			listeDel.setAttribute("value", minListe[i].length);
 			listeDel.setAttribute("type", "button");
 			listeDel.setAttribute("id", "dropdown-item");
+			listeDel.setAttribute("role", "option");
 			listeDel.innerHTML = minListe[i];
 			listeContainer.appendChild(listeDel);
 	}
